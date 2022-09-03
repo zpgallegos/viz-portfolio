@@ -32,7 +32,7 @@ row_transforms = [
 
 def jitter_age(df):
     """
-    artificially jitter age to allow for nonoverlapping points in the distribution plot
+    artificially jitter age to allow for slightly nonoverlapping points in the distribution plot
     """
 
     id_level = ["sex_class_label"]  # resolve overlaps within this group
